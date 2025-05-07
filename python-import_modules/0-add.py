@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-for i in range(100):
-    print("{:02d}".format(i), end=", " if i != 99 else "\n")
-
-
+from add_0 import add
+if __name__ == "__main__":
+    a = 1
+    b = 2
+    print("{} + {} = {}".format(a, b, add(a, b)))
