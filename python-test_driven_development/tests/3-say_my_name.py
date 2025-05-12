@@ -11,4 +11,3 @@ class User:
         if not isinstance(value, str):
             raise TypeError("first_name must be a string")
         self._first_name = value
-
